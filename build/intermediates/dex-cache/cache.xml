@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\c7705515006dddf2eb31167d994477e45e20375c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_04626d8bb54e7cd661b93602e0d57615c6c79527.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_32abcc8e07c629858288cf55a867f272cdee4aaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\9d1c9531a2ba395c3cca64d41b1b0593ce0fa794\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_e7b990f6f551c22005d95fddf2ec6751e2ad9412.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\0153e50e79367f4e19c47a0b4185f82582e44c27\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_c1415ffe901db6f5aa7dcdf46b05949279ccae8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\b93b3e0e8e9d03db62d336010ee4c0ca049a66d0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_982219d499e3daa47a0c5441702cae54c721e0ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\c8eb59541c54acb76af94c37aa030ff86e613799\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_39873c835da95c698967fa3db945a47af8999894.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\984899a0a34aa222c2880569bae5bf1852ad7110\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_55995140ef1c8d8ba46db645de1d1b35df3bbddb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\5c34d6a2e06b035a15d940172f234a66f8025996\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_57b0d3d79dfaf24343067b7f68ba77b0623d4748.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\c7d2695f16dca2df826d211c9405063cf3e96958\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_bd1faac3c742aab64dab611eed76db5bb8320dde.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID\Behy\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16502e8c07bc67e7b406c0d04d4689f609fbeb67">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f4ef6ec9247f1bcea086201a704868215a028150\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\4174ee3d3a5799caabfe83f94fc0cc216a07476a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_50d93696251eb78dbda8638482c0a654f4a775b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\6d7123e1f5959e4fa3ae12693089e0bb232e2c85\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_81f92c2e0445b74341cf98f9c7095cff905a97fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_199b86ba394b067c1fdf8d72895ff3b3d1d2286a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\923b999b20a7be796041e1fa55912f54309ae58f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_75289b179b3830eb7af2010bf06d9db524d5e34e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ANDROID\Behy\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ac9f334db95d00b43a5e37ca030f3548474068dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\5101a60c24b91b98a09367dd626cd6d21441c27a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_0b7598327fee03e3d4a708bbdb986fcc071f36fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\d36bad0838dfc5735ef898e700f4b54d15e6b746\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_07b1c4f6990cc347fd69d28ba23bbe4a2989b9d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ayyash\.android\build-cache\32b9ba6a35161dc9667c7e4bd59d6da3ae242a68\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\pre-dexed\debug\classes_05caa2ac6fc9acac2d01dcab1a65181edb29ea09.jar" />
+    </item>
+
+</items>
