@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
- 
+
 
 public class AktivitasFisik extends Fragment {
     public static AktivitasFisik newInstance() {

@@ -1,5 +1,6 @@
 package adompo.ayyash.behay;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -11,18 +12,26 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 
 public class UtamaActivity extends AppCompatActivity {
+
     private CollapsingToolbarLayout ctb;
     private int mutedColor;
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_utama);
+
+        final PrefManager pref = new PrefManager(this);
+        Log.d("WelcomeActivity", "pref in Utama: firstTimeLaunch = " + pref.isFirstTimeLaunch());
+        Log.d("WelcomeActivity", "pref in Utama: loggedIn = " + pref.isLoggedIn());
+        Log.d("WelcomeActivity", "pref in Utama: activeEmail = " + pref.getActiveEmail());
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView)
                 findViewById(R.id.navigation);
@@ -88,9 +97,19 @@ public class UtamaActivity extends AppCompatActivity {
                 // Set item in checked state
                 menuItem.setChecked(true);
 
-//TODO: handle navigation
+                //TODO: handle navigation
+                String title = menuItem.getTitle().toString();
+                if (title.equals("Logout")) {
+                    pref.setActiveEmail("");
+                    pref.setLoggedIn(false);
+                    pref.setFirstTimeLaunch(true);
 
-//Closing drawer on item click
+                    Intent i = new Intent(UtamaActivity.this, MainActivity.class);
+                    startActivity(i);
+                    finish();
+                }
+
+                //Closing drawer on item click
                 drawerLayout.closeDrawers();
                 return true;
             }

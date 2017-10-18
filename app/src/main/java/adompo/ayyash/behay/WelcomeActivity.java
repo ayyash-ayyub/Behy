@@ -9,6 +9,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,11 +33,12 @@ public class WelcomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        Log.d("WelcomeActivity", "onCreate()");
         // Checking for first time launch - before calling setContentView()
-        prefManager = new PrefManager(this);
+        prefManager = new PrefManager(getApplicationContext());
+        Log.d("WelcomeActivity", "isFirstTimeLaunch: " + prefManager.isFirstTimeLaunch());
         if (!prefManager.isFirstTimeLaunch()) {
             launchHomeScreen();
-            finish();
         }
 
         // Making notification bar transparent
@@ -119,6 +121,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
+        Log.d("WelcomeActivity", "launchHomeScreen: " + prefManager.isFirstTimeLaunch());
         startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
         finish();
     }

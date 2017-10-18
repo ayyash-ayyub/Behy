@@ -30,8 +30,8 @@
             android:title="Two"
             android:icon="@android:drawable/ic_input_add" />
         <item
-            android:title="Three"
-            android:icon="@android:drawable/ic_input_get" />
+            android:title="Logout"
+            android:icon="@android:drawable/ic_menu_revert" />
     </group>
 </menu>
 
