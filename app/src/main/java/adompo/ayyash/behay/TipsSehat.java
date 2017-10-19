@@ -3,6 +3,7 @@ package adompo.ayyash.behay;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,12 +25,13 @@ import adompo.ayyash.behay.test.ItemObjectAktifitas;
 import adompo.ayyash.behay.test.MainAdapterAktifitas;
 
 public class TipsSehat extends Fragment {
+
     ProgressDialog progressDialog;
     private ItemObjectAktifitas.ObjectAkatifitas objectAkatifitas;
     private MainAdapterAktifitas adapter;
     private RecyclerView rv_item;
 
-    public static TipsSehat newInstance() {
+    public static TipsSehat  newInstance() {
         TipsSehat fragment = new TipsSehat();
         return fragment;
     }
@@ -38,7 +40,6 @@ public class TipsSehat extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Progress dialog
-
     }
 
     @Override
@@ -53,14 +54,13 @@ public class TipsSehat extends Fragment {
         GetData(ConfigUmum.URL_SHOW_News);
         return rootView;
     }
-
     public void GetData(String URL) {
 
         progressDialog.show();
         RequestQueue queue = Volley.newRequestQueue(getContext());
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
-            ;
+
 
             @Override
             public void onResponse(String response) {
@@ -70,11 +70,17 @@ public class TipsSehat extends Fragment {
                 System.out.println("Respond "+ response);
                 // adapter = new MainAdapterProfile(this, objectBelajar.result);
 //                adapter = new MainAdapterAktifitas((Response.Listener<String>) getActivity(), objectAkatifitas.news);
-                adapter = new MainAdapterAktifitas((Response.Listener<String>) getActivity().getApplication(), objectAkatifitas.news);
 
+                LinearLayoutManager llm = new LinearLayoutManager(getContext());
+                llm.setOrientation(LinearLayoutManager.VERTICAL);
+                rv_item.setLayoutManager(llm);
+
+                adapter = new MainAdapterAktifitas(getContext(), objectAkatifitas.news);
                 rv_item.setAdapter(adapter);
 
                 progressDialog.dismiss();
+
+
             }
         }, new Response.ErrorListener() {
             @Override

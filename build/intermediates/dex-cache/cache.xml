@@ -3,165 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\50718cdbb0b77cce249cb9f069c93a092d402007\output\jars\classes.jar"
+        jar="E:\ANDROID\Behy\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_09c0df1d6a7e09a7ddc44a8aa0a625c4dd9d023b\classes.dex" />
+        sha1="b11436c14898305b764d84293b2be658d4a4c193">
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f4ef6ec9247f1bcea086201a704868215a028150\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\1622b145df266efb30747afcecb059fd865dcb22\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dec8049c377b4665c51f6f733af2b90018606d7b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\6d1965eab637d55f6b0b08807163e278e17610a9\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_42637e44e3d13770b605b366a620321b819965f9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\b4336129486c18cfc04c3b736733d6c7ed149b2a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fbd7c2e16b3cb49dc4a9810c9313a739e9ca6830\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\1985d0582589bd83c86722e3f68d2675b8d17b2c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ba88189e72e2df12c6de97d0c9f9a9d8dbbadfc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\0db57150ecef18de65f82ae96b445704b3348859\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b06d474023ff631bdc893d91b3ce36ca1f86c088\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Program_File\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_6742ba0396d6faf901ff7fbe8697c8fc749b0e36\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\a8c26c41df3f86db9c821f887a87243f6e61da2f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b3197b33f201f62c5597bfb75e43c9ebf0a4335\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="E:\ANDROID\Behy\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e2a58baec2bcaaf5c2634be82e78b597b973a81a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\458e9921724cdc50e9e239e7dfec9448127a0def\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_253177e9c952e9f11e7a6636d9ad9cde707b0535\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\982f180f64230fe7e655d8dc2c0f525e1309db80\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b8492b89cfbca3fa7ed8559e4d7a65d6e8d16e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\4ef77791e69ca6705b11a3aadc58243ad3422ba5\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9fede83bb8ff2bdec5659d89c4f335ced6f2b96d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\11b93ba77a0c324b75542c15c6472ca5b76aaa96\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c4cc2fc03ddb6662e3ef91c3459e5c7744b95a07\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b756b1c99314f713902cc4704e06fd2e13baadd9">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8959701624070be2ee6f9501494c69a0650ce818\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\c0db7ccef329e0422223206f7ce64245e8ad4a5c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5211497f4a13546d0252fea136e0ec3ea0cf99b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Program_File\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_e9c72942ef23bca6d811dbb145085e8212ceafd3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\e90937289038a496bc2ec5d3e452b16164c7c31f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3ef24e15d0f4b224e8e1fc04a9a48d45b70c997\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\71bd87a4c51bee1b5b2d655abd4d3e82ee8c7033\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6cbc77fe5808549c89713b7d43b6c5baf59a6337\classes.dex" />
+        <dex dex="E:\ANDROID\Behy\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ac9f334db95d00b43a5e37ca030f3548474068dc\classes.dex" />
     </item>
 
 </items>
