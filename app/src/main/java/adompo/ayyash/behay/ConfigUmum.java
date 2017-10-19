@@ -16,7 +16,7 @@ public class ConfigUmum {
     public static final String LOGIN_URL = "http://"+IP+"/login.php";
     public static final String URL_GET_RESPONDEN = "http://"+IP+"/api/get_responden.php";
     public static final String CEK_INPUT_SEBELUMNYA = "http://"+IP+"/api/check_input_sebelumnya.php?";
-
+    public static final String URL_SHOW_News ="http://administrator.behy.co/News/get_all";
     //buat pagi
 
     public static String URL_GET_PASS = "http://"+IP+"/api/lupapasword.php";
