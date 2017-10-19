@@ -8,9 +8,6 @@ import android.widget.TextView;
 
 import adompo.ayyash.behay.R;
 
-/**
- * Created by Isfahani on 30-Jul-16.
- */
 
 public class MainHolderAktifitas extends RecyclerView.ViewHolder {
 

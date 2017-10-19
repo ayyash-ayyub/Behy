@@ -23,9 +23,7 @@ import adompo.ayyash.behay.test.MainHolderAktifitas;
 
 import java.util.List;
 
-/**
- * Created by Isfahani on 30-Jul-16.
- */
+
 public class MainAdapterAktifitas extends RecyclerView.Adapter<MainHolderAktifitas> {
 
     ProgressDialog progressDialog;
