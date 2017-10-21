@@ -4,9 +4,6 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.InputFilter;
-import android.text.Spanned;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -127,7 +124,7 @@ public class Register extends AppCompatActivity {
 
                         progressDialog.dismiss();
                       //  signinhere.setText(response);
-                        Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                        Intent i = new Intent(getApplicationContext(), LoginActivity.class);
                         startActivity(i);
                         finish();
                     }

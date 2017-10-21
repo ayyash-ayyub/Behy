@@ -1,9 +1,7 @@
 package adompo.ayyash.behay;
 
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -27,7 +25,7 @@ import com.android.volley.toolbox.Volley;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
 
     private TextView tombolDaftar;
@@ -91,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         loggedIn = pref.isLoggedIn();
 
         if (loggedIn) {
-            Intent intent = new Intent(MainActivity.this, FormActivityToday.class);
+            Intent intent = new Intent(LoginActivity.this, UtamaActivity.class);
             startActivity(intent);
             finish();
         }
@@ -115,12 +113,12 @@ public class MainActivity extends AppCompatActivity {
                             pref.setLoggedIn(true);
                             pref.setActiveEmail(nisA);
 
-                            Intent i = new Intent(MainActivity.this, FormActivityToday.class);
+                            Intent i = new Intent(LoginActivity.this, UtamaActivity.class);
                             startActivity(i);
 
                             progressDialog.dismiss();
                         } else {
-                            Toast.makeText(MainActivity.this, "username/password salah /masalah koneksi ke server", Toast.LENGTH_LONG).show();
+                            Toast.makeText(LoginActivity.this, "username/password salah /masalah koneksi ke server", Toast.LENGTH_LONG).show();
                             progressDialog.dismiss();
                         }
                     }
@@ -157,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
         // make first time launch TRUE
         prefManager.setFirstTimeLaunch(true);
 
-       // startActivity(new Intent(MainActivity.this, WelcomeActivity.class));
+       // startActivity(new Intent(LoginActivity.this, WelcomeActivity.class));
        // finish();
 
     }

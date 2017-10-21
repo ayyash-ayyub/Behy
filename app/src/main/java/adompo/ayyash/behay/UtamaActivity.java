@@ -104,7 +104,7 @@ public class UtamaActivity extends AppCompatActivity {
                     pref.setLoggedIn(false);
                     pref.setFirstTimeLaunch(true);
 
-                    Intent i = new Intent(UtamaActivity.this, MainActivity.class);
+                    Intent i = new Intent(UtamaActivity.this, LoginActivity.class);
                     startActivity(i);
                     finish();
                 }
