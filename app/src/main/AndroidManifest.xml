@@ -28,9 +28,12 @@
         <activity android:name=".Register" />
         <activity
             android:name=".TinggiBadan"
-            android:theme="@style/Animation.AppCompat.Dialog" />
-        <activity android:name=".BeratBadan" />
-        <activity android:name=".FormActivityToday"></activity>
+             />
+        <activity android:name=".BeratBadan"
+            />
+        <activity android:name=".FormActivityToday">
+
+        </activity>
     </application>
 
 </manifest>

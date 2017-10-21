@@ -7,6 +7,7 @@
     android:background="@color/bg_screen2"
     android:gravity="center"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context="adompo.ayyash.behay.TinggiBadan">
 
     <TextView
@@ -14,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
+
         android:gravity="center"
         android:text="Bagaimana tingkat aktivitas fisik anda hari ini?"
         android:textAlignment="center"
@@ -23,39 +25,47 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <RadioButton
             android:layout_width="wrap_content"
-            android:text="Istirahat di tempat tidur"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Istirahat di tempat tidur" />
+
         <RadioButton
             android:layout_width="wrap_content"
-            android:text="Kerja sangat ringan"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Kerja sangat ringan" />
+
         <RadioButton
             android:layout_width="wrap_content"
-            android:text="Kerja ringan"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Kerja ringan" />
+
         <RadioButton
             android:layout_width="wrap_content"
-            android:text="Kerja ringan-sedang"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Kerja ringan-sedang" />
+
         <RadioButton
             android:layout_width="wrap_content"
-            android:text="Kerja sedang"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Kerja sedang" />
+
         <RadioButton
             android:layout_width="wrap_content"
-            android:text="Kerja Berat"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Kerja Berat" />
+
         <RadioButton
             android:layout_width="wrap_content"
-            android:text="Kerja Berat Sekali"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Kerja Berat Sekali" />
     </RadioGroup>
 
     <Button
         android:id="@+id/btn_simpan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
         android:text="Simpan" />
 </LinearLayout>

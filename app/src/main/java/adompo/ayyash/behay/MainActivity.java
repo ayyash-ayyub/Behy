@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         loggedIn = pref.isLoggedIn();
 
         if (loggedIn) {
-            Intent intent = new Intent(MainActivity.this, UtamaActivity.class);
+            Intent intent = new Intent(MainActivity.this, FormActivityToday.class);
             startActivity(intent);
             finish();
         }
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                             pref.setLoggedIn(true);
                             pref.setActiveEmail(nisA);
 
-                            Intent i = new Intent(MainActivity.this, UtamaActivity.class);
+                            Intent i = new Intent(MainActivity.this, FormActivityToday.class);
                             startActivity(i);
 
                             progressDialog.dismiss();
