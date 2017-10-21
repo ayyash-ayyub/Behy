@@ -27,13 +27,6 @@
         android:orientation="horizontal"
         android:padding="15dp">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Berat Badan" />
-
         <EditText
             android:id="@+id/etxt_berat"
             android:layout_width="wrap_content"

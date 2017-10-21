@@ -27,13 +27,6 @@
         android:orientation="horizontal"
         android:padding="15dp">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:text="Tinggi Badan" />
-
         <EditText
             android:id="@+id/etxt_tinggi"
             android:layout_width="match_parent"
