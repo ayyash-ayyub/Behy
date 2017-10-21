@@ -147,6 +147,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Muhamad Muslim Rifai\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_50babcc4b50837676290e2925d0d558b5f2094df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Muhamad Muslim Rifai\.android\build-cache\e90937289038a496bc2ec5d3e452b16164c7c31f\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"

@@ -3,6 +3,7 @@ package adompo.ayyash.behay;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -68,10 +69,12 @@ public class TipsSehat extends Fragment {
                 Gson mGson = builder.create();
                 objectAkatifitas = mGson.fromJson(response, ItemObjectAktifitas.ObjectAkatifitas.class);
                 System.out.println("Respond "+ response);
-                // adapter = new MainAdapterProfile(this, objectBelajar.result);
-//                adapter = new MainAdapterAktifitas((Response.Listener<String>) getActivity(), objectAkatifitas.news);
-                adapter = new MainAdapterAktifitas((Response.Listener<String>) getActivity().getApplication(), objectAkatifitas.news);
+                LinearLayoutManager llm = new LinearLayoutManager(getContext());
+                llm.setOrientation(LinearLayoutManager.VERTICAL);
+                rv_item.setLayoutManager(llm);
 
+                System.out.println("size: " + objectAkatifitas.news.size());
+                adapter = new MainAdapterAktifitas(getContext(), objectAkatifitas.news);
                 rv_item.setAdapter(adapter);
 
                 progressDialog.dismiss();
