@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -66,7 +67,7 @@ public class Register extends AppCompatActivity {
         txt_email   = (EditText)findViewById(R.id.txtemail);
         txt_berat     = (EditText)findViewById(R.id.txtBerat);
         txt_tinggi     = (EditText)findViewById(R.id.txtTinggi);
-//        txt_ttl.setEnabled(false);
+
         txt_ttl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,10 +88,6 @@ public class Register extends AppCompatActivity {
                 datePickerDialog.show();
             }
         });
-
-
-
-
 
         txt_password = (EditText)findViewById(R.id.txtPass);
 

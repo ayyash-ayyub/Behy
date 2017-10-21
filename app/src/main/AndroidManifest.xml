@@ -26,12 +26,13 @@
             android:label="@string/title_activity_welcome"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Register" />
-        <activity
-            android:name=".TinggiBadan" />
-        <activity android:name=".BeratBadan" />
-        <activity android:name=".FormActivityToday">
-
-        </activity>
+        <activity android:name=".TinggiBadan"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog"/>
+        <activity android:name=".BeratBadan"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog"/>
+        <activity android:name=".FormActivityToday"></activity>
+        <activity android:name=".FormLemak"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog"></activity>
     </application>
 
 </manifest>

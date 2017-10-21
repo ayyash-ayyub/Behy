@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_screen2"
+    android:padding="20dp"
     android:gravity="center"
     android:orientation="vertical"
     tools:context="adompo.ayyash.behay.TinggiBadan">
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/rounded_edittext"
+
             android:ems="10"
             android:hint="Berat Badan"
             android:inputType="number"
