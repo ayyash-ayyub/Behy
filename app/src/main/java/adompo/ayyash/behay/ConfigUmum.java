@@ -13,6 +13,8 @@ public class ConfigUmum {
     public static String URL_GET_JML_SEDENTARI = "http://"+IP+"/api/get_jumlah_menit_sedentari.php?email=";
 
 
+
+
     public static final String LOGIN_URL = "http://"+IP+"/login.php";
     public static final String URL_GET_RESPONDEN = "http://"+IP+"/api/get_responden.php";
     public static final String CEK_INPUT_SEBELUMNYA = "http://"+IP+"/api/check_input_sebelumnya.php?";

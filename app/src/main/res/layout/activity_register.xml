@@ -55,30 +55,6 @@
             </RadioGroup>
 
             <EditText
-                android:id="@+id/txtPass"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="password"
-                android:inputType="textPassword" />
-
-            <EditText
-                android:id="@+id/txtusername"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="username"
-                android:inputType="textPersonName" />
-
-            <EditText
-                android:id="@+id/txtDate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="yyyy-mm-dd"
-                android:inputType="date" />
-
-            <EditText
                 android:id="@+id/txtemail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -87,12 +63,29 @@
                 android:inputType="textEmailAddress" />
 
             <EditText
+                android:id="@+id/txtPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/txtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Tanggal Lahir"
+                android:editable="false"
+                android:inputType="none" />
+
+            <EditText
                 android:id="@+id/txtBerat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Berat Badan (kg)"
-                android:inputType="number" />
+                android:inputType="numberDecimal" />
 
             <EditText
                 android:id="@+id/txtTinggi"
@@ -100,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Tinggi Badan (cm)"
-                android:inputType="number" />
+                android:inputType="numberDecimal" />
 
             <Button
                 android:id="@+id/btnDaftar"

@@ -30,7 +30,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private TextView tombolDaftar;
     EditText email,password;
-     Button login;
+    Button login;
     private boolean loggedIn = false;
     ProgressDialog progressDialog;
     @Override
@@ -155,8 +155,8 @@ public class LoginActivity extends AppCompatActivity {
         // make first time launch TRUE
         prefManager.setFirstTimeLaunch(true);
 
-       // startActivity(new Intent(LoginActivity.this, WelcomeActivity.class));
-       // finish();
+        // startActivity(new Intent(LoginActivity.this, WelcomeActivity.class));
+        // finish();
 
     }
 }
