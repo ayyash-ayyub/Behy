@@ -68,6 +68,7 @@ public class TipsSehat extends Fragment {
                 Gson mGson = builder.create();
                 objectAkatifitas = mGson.fromJson(response, ItemObjectAktifitas.ObjectAkatifitas.class);
                 System.out.println("Respond "+ response);
+<<<<<<< HEAD
                 // adapter = new MainAdapterProfile(this, objectBelajar.result);
 //                adapter = new MainAdapterAktifitas((Response.Listener<String>) getActivity(), objectAkatifitas.news);
 
@@ -75,6 +76,13 @@ public class TipsSehat extends Fragment {
                 llm.setOrientation(LinearLayoutManager.VERTICAL);
                 rv_item.setLayoutManager(llm);
 
+=======
+                LinearLayoutManager llm = new LinearLayoutManager(getContext());
+                llm.setOrientation(LinearLayoutManager.VERTICAL);
+                rv_item.setLayoutManager(llm);
+
+                System.out.println("size: " + objectAkatifitas.news.size());
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
                 adapter = new MainAdapterAktifitas(getContext(), objectAkatifitas.news);
                 rv_item.setAdapter(adapter);
 

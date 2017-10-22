@@ -3,6 +3,7 @@
 
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="E:\ANDROID\Behy\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -13,11 +14,27 @@
     <item
         is-multidex="true"
         jar="E:\ANDROID\Behy\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+=======
+        jar="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6d49363e0c5f21ff72b45fe7a09327ad24dd02ae">
+        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8959701624070be2ee6f9501494c69a0650ce818\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+<<<<<<< HEAD
         <dex dex="E:\ANDROID\Behy\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ac9f334db95d00b43a5e37ca030f3548474068dc\classes.dex" />
+=======
+        <dex dex="D:\Pemrograman\Android\2017\Project\Recfon\Behy2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e2a58baec2bcaaf5c2634be82e78b597b973a81a\classes.dex" />
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
     </item>
 
 </items>

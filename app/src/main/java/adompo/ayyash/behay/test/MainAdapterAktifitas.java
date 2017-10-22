@@ -5,6 +5,10 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+<<<<<<< HEAD
+=======
+import android.content.Intent;
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -13,6 +17,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+<<<<<<< HEAD
+=======
+import android.widget.Toast;
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -20,8 +28,13 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.squareup.picasso.Picasso;
 //import adompo.ayyash.behay.ConfigUmum;
 import adompo.ayyash.behay.R;
+<<<<<<< HEAD
+=======
+import adompo.ayyash.behay.TipsSehatDetail;
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
 
 import java.util.List;
 
@@ -70,16 +83,23 @@ public class MainAdapterAktifitas extends RecyclerView.Adapter<MainAdapterAktifi
         holder.txt_judul.setText(resultsList.get(position).judul);
         holder.txt_label.setText(resultsList.get(position).kategori);
         holder.txt_tanggal.setText(resultsList.get(position).tanggal);
+<<<<<<< HEAD
+=======
+        Picasso.with(context).load("http://administrator.behy.co/public/assets/images/"+resultsList.get(position).gambar).into(holder.img_banner);
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
 
 //        final String nama_makanan =resultsList.get(position).activity;
-        final String idd = resultsList.get(position).id;
 
+        final int idvalue = resultsList.get(position).id;
         holder.cardview_item.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View view) {
-                progressDialog = new ProgressDialog(context);
-                progressDialog.setCancelable(false);
-                progressDialog.setMessage("Silahkan Tunggu...");
+
+
+//                Toast.makeText(context, resultsList.get(position).id, Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(context, TipsSehatDetail.class);
+                i.putExtra("id", idvalue);
+                view.getContext().startActivity(i);
 
 
                    //  DeleteData(ConfigUmum.URL_DELETE_ACTIVITY+idd);
@@ -87,39 +107,39 @@ public class MainAdapterAktifitas extends RecyclerView.Adapter<MainAdapterAktifi
                 //  view.getContext().startActivity(i);
 
 
-                AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext());
-                builder.setTitle("Konfirmasi");
-//                builder.setMessage("Apakah anda yakin ingin menghapus\n" +
-//                        nama_makanan + " ?");
-                builder.setPositiveButton("Hapus", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        //  http://103.43.45.237/recfon/api/delete_activity.php?id=13
-//                        DeleteData(ConfigUmum.URL_DELETE_ACTIVITY+idd);
-//                        dialog.dismiss();
-
-                        //   Intent i = new Intent(context, SarapanActivity.class);
-
-                        //
-                        //  i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | IntentCompat.FLAG_ACTIVITY_CLEAR_TASK);
-                        //view.getContext().startActivity(i);
-
-                        //   Toast.makeText(context,"UYE:"+idd, Toast.LENGTH_SHORT).show();
-
-
-                        Activity activity = (Activity)view.getContext();
-                        activity.finish();
-                        view.getContext().startActivity(activity.getIntent());
-
-                    }
-                });
-                builder.setNegativeButton("Batalkan", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-//                        dialog.dismiss();
-                    }
-                });
-                AlertDialog alert = builder.create();
-                alert.show();
+//                AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext());
+//                builder.setTitle("Konfirmasi");
+////                builder.setMessage("Apakah anda yakin ingin menghapus\n" +
+////                        nama_makanan + " ?");
+//                builder.setPositiveButton("Hapus", new DialogInterface.OnClickListener() {
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        //  http://103.43.45.237/recfon/api/delete_activity.php?id=13
+////                        DeleteData(ConfigUmum.URL_DELETE_ACTIVITY+idd);
+////                        dialog.dismiss();
+//
+//                        //   Intent i = new Intent(context, SarapanActivity.class);
+//
+//                        //
+//                        //  i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | IntentCompat.FLAG_ACTIVITY_CLEAR_TASK);
+//                        //view.getContext().startActivity(i);
+//
+//                        //   Toast.makeText(context,"UYE:"+idd, Toast.LENGTH_SHORT).show();
+//
+//
+//                        Activity activity = (Activity)view.getContext();
+//                        activity.finish();
+//                        view.getContext().startActivity(activity.getIntent());
+//
+//                    }
+//                });
+//                builder.setNegativeButton("Batalkan", new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+////                        dialog.dismiss();
+//                    }
+//                });
+//                AlertDialog alert = builder.create();
+//                alert.show();
 
 
                 //   Toast.makeText(context,"ID nya: "+resultsList.get(position).nama_makanan, Toast.LENGTH_LONG).show();
@@ -132,6 +152,33 @@ public class MainAdapterAktifitas extends RecyclerView.Adapter<MainAdapterAktifi
     @Override
     public int getItemCount() {
         return this.resultsList.size();
+    }
+
+
+
+
+    public final static class MainHolderAktifitas extends RecyclerView.ViewHolder {
+
+        ImageView img_banner;
+        TextView txt_judul, txt_tanggal, txt_label;
+
+<<<<<<< HEAD
+    @Override
+    public int getItemCount() {
+        return this.resultsList.size();
+=======
+        CardView cardview_item;
+
+        MainHolderAktifitas(View itemView) {
+            super(itemView);
+
+            img_banner = (ImageView)itemView.findViewById(R.id.imgTumb);
+            txt_judul = (TextView) itemView.findViewById(R.id.txtJudul);
+            txt_tanggal = (TextView) itemView.findViewById(R.id.txtTgl);
+            txt_label = (TextView)itemView.findViewById(R.id.txtLabel);
+            cardview_item = (CardView) itemView.findViewById(R.id.cv_item);
+        }
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
     }
 
 
