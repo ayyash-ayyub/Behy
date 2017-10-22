@@ -9,16 +9,24 @@ public class ConfigUmum {
 
     public static final String IP="api.behy.co";
 
+   // public static final String LOGIN_LAMA="http://api.behy.co/login.php";
+
     public static String URL_GET_JML_FFQ = "http://"+IP+"/api/get_jumlah_ffq.php?email=";
     public static String URL_GET_JML_SEDENTARI = "http://"+IP+"/api/get_jumlah_menit_sedentari.php?email=";
 
 
 
 
-    public static final String LOGIN_URL = "http://"+IP+"/login.php";
+
+
+    public static final String LOGIN_URL = "http://administrator.behy.co/User/loginParticipant";
     public static final String URL_GET_RESPONDEN = "http://"+IP+"/api/get_responden.php";
     public static final String CEK_INPUT_SEBELUMNYA = "http://"+IP+"/api/check_input_sebelumnya.php?";
     public static final String URL_SHOW_News ="http://administrator.behy.co/News/get_all";
+
+    public static final String SAVE_LEMAK ="http://administrator.behy.co/User/setFatParticipant";
+
+
     //buat pagi
 
     public static String URL_GET_PASS = "http://"+IP+"/api/lupapasword.php";
@@ -84,7 +92,10 @@ public class ConfigUmum {
 
 
     //regiser
-    public static String REGISTER = "http://"+IP+"/register.php";
+    public static String REGISTER = "http://administrator.behy.co/User/registerParticipant";
+
+    //input berat badan
+    public static String INPUT_BERAT = "http://administrator.behy.co/User/setWeightParticipant";
 
 
     public static final String KEY_EMAIL = "email";
