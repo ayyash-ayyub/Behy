@@ -69,6 +69,10 @@ Button btnSimpanBerat;
 
     }
 
+    private void tampan(){
+        System.out.println("sdfdgfd");
+    }
+
 
     private void save() {
         progressDialog.show();
