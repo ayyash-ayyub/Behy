@@ -25,12 +25,13 @@ import adompo.ayyash.behay.test.ItemObjectAktifitas;
 import adompo.ayyash.behay.test.MainAdapterAktifitas;
 
 public class TipsSehat extends Fragment {
+
     ProgressDialog progressDialog;
     private ItemObjectAktifitas.ObjectAkatifitas objectAkatifitas;
     private MainAdapterAktifitas adapter;
     private RecyclerView rv_item;
 
-    public static TipsSehat newInstance() {
+    public static TipsSehat  newInstance() {
         TipsSehat fragment = new TipsSehat();
         return fragment;
     }
@@ -39,7 +40,6 @@ public class TipsSehat extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Progress dialog
-
     }
 
     @Override
@@ -54,14 +54,13 @@ public class TipsSehat extends Fragment {
         GetData(ConfigUmum.URL_SHOW_News);
         return rootView;
     }
-
     public void GetData(String URL) {
 
         progressDialog.show();
         RequestQueue queue = Volley.newRequestQueue(getContext());
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
-            ;
+
 
             @Override
             public void onResponse(String response) {
@@ -69,15 +68,27 @@ public class TipsSehat extends Fragment {
                 Gson mGson = builder.create();
                 objectAkatifitas = mGson.fromJson(response, ItemObjectAktifitas.ObjectAkatifitas.class);
                 System.out.println("Respond "+ response);
+<<<<<<< HEAD
+                // adapter = new MainAdapterProfile(this, objectBelajar.result);
+//                adapter = new MainAdapterAktifitas((Response.Listener<String>) getActivity(), objectAkatifitas.news);
+
+                LinearLayoutManager llm = new LinearLayoutManager(getContext());
+                llm.setOrientation(LinearLayoutManager.VERTICAL);
+                rv_item.setLayoutManager(llm);
+
+=======
                 LinearLayoutManager llm = new LinearLayoutManager(getContext());
                 llm.setOrientation(LinearLayoutManager.VERTICAL);
                 rv_item.setLayoutManager(llm);
 
                 System.out.println("size: " + objectAkatifitas.news.size());
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
                 adapter = new MainAdapterAktifitas(getContext(), objectAkatifitas.news);
                 rv_item.setAdapter(adapter);
 
                 progressDialog.dismiss();
+
+
             }
         }, new Response.ErrorListener() {
             @Override

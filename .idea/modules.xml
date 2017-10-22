@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Behy.iml" filepath="$PROJECT_DIR$/Behy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behy1.iml" filepath="$PROJECT_DIR$/Behy1.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Behy22Pagi.iml" filepath="$PROJECT_DIR$/Behy22Pagi.iml" />
+=======
+>>>>>>> 1d4e0e219ae388581e7b7483d92dbed80bdecbc8
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
