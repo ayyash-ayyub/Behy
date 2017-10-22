@@ -12,7 +12,7 @@ public class ItemObjectAktifitas {
 
         public class Results {
             @SerializedName("id")
-            public String id;
+            public int id;
 
             @SerializedName("kategori")
             public String kategori;
