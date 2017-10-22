@@ -5,7 +5,10 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+<<<<<<< HEAD
+=======
 import android.content.Intent;
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -14,7 +17,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+<<<<<<< HEAD
+=======
 import android.widget.Toast;
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -25,7 +31,10 @@ import com.android.volley.toolbox.Volley;
 import com.squareup.picasso.Picasso;
 //import adompo.ayyash.behay.ConfigUmum;
 import adompo.ayyash.behay.R;
+<<<<<<< HEAD
+=======
 import adompo.ayyash.behay.TipsSehatDetail;
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
 
 import java.util.List;
 
@@ -74,7 +83,10 @@ public class MainAdapterAktifitas extends RecyclerView.Adapter<MainAdapterAktifi
         holder.txt_judul.setText(resultsList.get(position).judul);
         holder.txt_label.setText(resultsList.get(position).kategori);
         holder.txt_tanggal.setText(resultsList.get(position).tanggal);
+<<<<<<< HEAD
+=======
         Picasso.with(context).load("http://administrator.behy.co/public/assets/images/"+resultsList.get(position).gambar).into(holder.img_banner);
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
 
 //        final String nama_makanan =resultsList.get(position).activity;
 
@@ -90,7 +102,7 @@ public class MainAdapterAktifitas extends RecyclerView.Adapter<MainAdapterAktifi
                 view.getContext().startActivity(i);
 
 
-                //  DeleteData(ConfigUmum.URL_DELETE_ACTIVITY+idd);
+                   //  DeleteData(ConfigUmum.URL_DELETE_ACTIVITY+idd);
                 // Intent i = new Intent(context, Pengalih.class);
                 //  view.getContext().startActivity(i);
 
@@ -141,6 +153,34 @@ public class MainAdapterAktifitas extends RecyclerView.Adapter<MainAdapterAktifi
     public int getItemCount() {
         return this.resultsList.size();
     }
+
+
+
+
+    public final static class MainHolderAktifitas extends RecyclerView.ViewHolder {
+
+        ImageView img_banner;
+        TextView txt_judul, txt_tanggal, txt_label;
+
+<<<<<<< HEAD
+    @Override
+    public int getItemCount() {
+        return this.resultsList.size();
+=======
+        CardView cardview_item;
+
+        MainHolderAktifitas(View itemView) {
+            super(itemView);
+
+            img_banner = (ImageView)itemView.findViewById(R.id.imgTumb);
+            txt_judul = (TextView) itemView.findViewById(R.id.txtJudul);
+            txt_tanggal = (TextView) itemView.findViewById(R.id.txtTgl);
+            txt_label = (TextView)itemView.findViewById(R.id.txtLabel);
+            cardview_item = (CardView) itemView.findViewById(R.id.cv_item);
+        }
+>>>>>>> 0c15827d7b45c08e0a6ce62cba61d7f7ec40bf13
+    }
+
 
 
 

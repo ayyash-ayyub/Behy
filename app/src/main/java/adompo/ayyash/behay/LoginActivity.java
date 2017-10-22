@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
     private TextView tombolDaftar;
-    EditText email,password;
+    EditText eemail,ppassword;
     Button login;
     private boolean loggedIn = false;
     ProgressDialog progressDialog;
@@ -50,8 +50,8 @@ public class LoginActivity extends AppCompatActivity {
 
         tombolDaftar = (TextView)findViewById(R.id.tmbDaftar);
 
-        email = (EditText)findViewById(R.id.txtEmail);
-        password = (EditText)findViewById(R.id.txtPasswordD);
+        eemail = (EditText)findViewById(R.id.txtEmail);
+        ppassword = (EditText)findViewById(R.id.txtPasswordD);
         login = (Button) findViewById(R.id.btnLoginn);
 
 
@@ -67,11 +67,12 @@ public class LoginActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (email.getText().toString().isEmpty() || password.getText().toString().isEmpty()) {
+                if (eemail.getText().toString().isEmpty() || ppassword.getText().toString().isEmpty()) {
                     Toast.makeText(getApplicationContext(), "email dan password tidak boleh kosong", Toast.LENGTH_SHORT).show();
                 } else {
                     // cek dari db
-                    login();
+                   login();
+
                 }
             }
         });
@@ -98,8 +99,8 @@ public class LoginActivity extends AppCompatActivity {
 
     private void login() {
         progressDialog.show();
-        final String nisA = email.getText().toString().trim();
-        final String passwordA = password.getText().toString().trim();
+        final String email = eemail.getText().toString().trim();
+        final String password = ppassword.getText().toString().trim();
 
 //        Toast.makeText(Login.this, "hai: "+nisA +" "+passwordA,Toast.LENGTH_LONG).show();
 
@@ -111,14 +112,17 @@ public class LoginActivity extends AppCompatActivity {
                             PrefManager pref = new PrefManager(getApplicationContext());
 
                             pref.setLoggedIn(true);
-                            pref.setActiveEmail(nisA);
+                            pref.setActiveEmail(email);
 
                             Intent i = new Intent(LoginActivity.this, UtamaActivity.class);
                             startActivity(i);
 
                             progressDialog.dismiss();
                         } else {
-                            Toast.makeText(LoginActivity.this, "username/password salah /masalah koneksi ke server", Toast.LENGTH_LONG).show();
+
+
+
+                           Toast.makeText(LoginActivity.this, "username/password salah /masalah koneksi ke server", Toast.LENGTH_LONG).show();
                             progressDialog.dismiss();
                         }
                     }
@@ -133,8 +137,8 @@ public class LoginActivity extends AppCompatActivity {
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<>();
 
-                params.put(ConfigUmum.KEY_EMAIL, nisA);
-                params.put(ConfigUmum.KEY_PASSWORD, passwordA);
+                params.put(ConfigUmum.KEY_EMAIL, email);
+                params.put(ConfigUmum.KEY_PASSWORD, password);
 
                 return params;
             }
