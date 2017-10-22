@@ -64,10 +64,16 @@ Button btnSimpanBerat;
             }
         });
 
+   //bla bla
 
 
 
     }
+
+    private int aa(){
+        return 0;
+    }
+
 
     private void tampan(){
         System.out.println("sdfdgfd");
